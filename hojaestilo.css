@@ -1,18 +1,14 @@
-/* Quitarle al navbar el margen inferior y los bordes */
+/* Quitarle al navbar el margen y borde predefinidos*/
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
 }
 
-.col-sm-6 {
-    right: 0;
-}
-
+/* Mi foto que salga pegada al navbar */
 .image-fluid {
-    /*height: 100%;*/
     top: 0;
-    position: absolute;
-    width: 50%;
+    width: 100%;
+    height: 100%;
 }
 
 /* Agregar un pie de página y padding */
