@@ -1,0 +1,22 @@
+/* Quitarle al navbar el margen inferior y los bordes */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.col-sm-6 {
+    right: 0;
+}
+
+.image-fluid {
+    /*height: 100%;*/
+    top: 0;
+    position: absolute;
+    width: 50%;
+}
+
+/* Agregar un pie de página y padding */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
