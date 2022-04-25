@@ -11,6 +11,15 @@
     height: 100%;
 }
 
+/* Formulario */
+.form-control:active,
+.form-control:focus,
+.form-control:focus:active {
+    background-color: #ffffff !important;
+    border-color: #000000;
+    color: black;
+}
+
 /* Agregar un pie de página y padding */
 footer {
     background-color: #f2f2f2;
