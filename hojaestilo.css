@@ -1,4 +1,4 @@
-/* Quitarle al navbar el margen y borde predefinidos*/
+/* Quitarle al navbar el margen y borde predefinidos */
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
@@ -11,6 +11,17 @@
     height: 100%;
 }
 
+/* Efecto de Zoom out en la imagen de las flores al pasas el mouse por arriba*/
+.efecto img {
+    transition: all 1.3s ease;
+}
+
+.efecto:hover img {
+    transform: scale(0.8);
+    -webkit-filter: opacity(0.7);
+
+}
+
 /* Formulario */
 .form-control:active,
 .form-control:focus,
@@ -20,7 +31,7 @@
     color: black;
 }
 
-/* Agregar un pie de página y padding */
+/* Agregar color de fondo del pie de página y padding */
 footer {
     background-color: #f2f2f2;
     padding: 25px;
