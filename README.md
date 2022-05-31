@@ -1,2 +1,2 @@
 # Cristy-s-Page
-Mi primera página desde cero
+Mi primera página usando bootstrap.
